@@ -4,7 +4,11 @@
       <h2>
         Search "winestore" database
       </h2>
-      <form>
+      <form action="query.php" method="GET">
+         Wine name: <input type="text" name="winename" /><br />
+         Winery name: <input type="text" name="wineryname" /><br />
+         Region: <br />
+		 <input type="submit" value="Show wines">
       </form>
    </body>
 </html>
